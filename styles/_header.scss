@@ -1,0 +1,92 @@
+nav{
+    z-index: 6;
+}
+.container {
+   max-width: 1920px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 125px;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    left: 19%;
+    
+}
+.redesocial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 5%;
+    z-index: 6;
+}
+.logo{
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    margin-left: 7px;
+    z-index: 6;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    font-family: 'Inter', sans-serif;
+    opacity: 1;
+}
+.navdot{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+    
+}
+.fotofundo{
+    
+    object-fit:cover ;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    top: 0%;
+    
+    
+}
+
+.horajs{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 56%;
+    right: 47%;
+    z-index: 4;
+}
+#rede{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    z-index: 7;
+    
+    h2{
+        text-align: center;
+        font-size: 50px;
+    }
+}
+.gitblack{
+    margin-right: 10px;
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px); // gira a div para forma o x
+}
+.toggle .line2{
+   opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}

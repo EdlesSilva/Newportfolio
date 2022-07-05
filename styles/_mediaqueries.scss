@@ -1,0 +1,530 @@
+@media screen and (max-width: 1536px)  {
+    .linkedinblack{
+        margin-left: 7px;
+    }
+      
+      
+       
+    .menu{
+    left: 11% !important;
+    top: 73px !important;
+    justify-content: space-around !important;    
+}
+    .contact {
+            
+    height: 21vh !important;
+    padding: 38px !important;
+    h3 , h4{
+    margin: 0px !important;
+            
+    }
+}
+        
+    .horajs{
+    top: 454px !important;
+    right: 46% !important;
+    }
+       
+}
+
+@media screen and (min-width: 768px) and (max-width: 834px) /*Sempre eh do maior para o menor para nao dar ERRO*/  {
+    .linkedinblack{
+        margin-left: 7px;
+       }
+      
+       .my-creations{
+        display: block !important ;
+       }
+       .gitblack{
+        margin: 0px !important;
+       }
+       .menu{
+        left: 0% !important;
+        top: 83px !important;
+        justify-content: space-around !important;    
+    }
+        .contact {
+            
+        height: 13vh !important;
+        padding: 42px !important;
+            
+        h3 , h4{
+        margin: 0px !important;
+        font-size: 26px !important;
+        }
+    }
+       
+        .sobre{
+            margin: 0% !important;
+            p{
+            width: 100% !important;
+            padding: 12px;
+            }
+        }
+        .mob{
+            width: 25%;
+    
+        }
+       .nav-links{
+        display: none !important;
+       }
+       .hamburger{
+        display: block ;
+        cursor: pointer;
+       }
+        .line1, .line2, .line3{
+        background-color: white;
+        width: 35px;
+        height: 2px;
+        margin-top: 6px;
+        transition: all 0.4s ease; // diminui a velocidade apos o click
+        }
+        .horajs{
+        top: 563px !important;
+        right: 41% !important;
+        }
+        .nav-active{
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        flex-direction: column;
+        margin: 0px auto;
+        width: 100% !important;
+        height: 100vh;
+        position: absolute;
+        top: -52px;
+        left: 0%;
+        background-image: linear-gradient(220deg, rgba(247, 39, 74, 1),rgba(22, 26, 30, 1));
+        z-index: -1; // Como tenho a div burguer no meu codigo, precisar negativar o z-index do nac active pq ele esta um nivel acima
+}
+    
+
+} 
+
+
+
+
+@media screen and (max-width: 500px) /*Sempre eh do maior para o menor para nao dar ERRO*/  {
+  
+   .linkedinblack{
+    margin-left: 7px;
+   }
+   #rede{
+    h2{
+        font-size: 25px !important;
+    }
+   }
+   .my-creations{
+    display: block !important ;
+   }
+   .gitblack{
+    margin: 0px !important;
+   }
+   .menu{
+    left: 0% !important;
+    top: 51px !important;
+    justify-content: space-around !important;    
+}
+    .contact {
+        
+        height: 21vh !important;
+        
+        h3 , h4{
+        margin: 0px !important;
+        font-size: 19px !important;
+    }
+}
+    .img-creation{
+    width: 239px !important;
+    height: 149px !important;
+    }
+    .sobre{
+        margin: 0% !important;
+        p{
+        width: 100% !important;
+        padding: 12px;
+        }
+    }
+    .mob{
+        width: 25%;
+
+    }
+   .nav-links{
+    display: none !important;
+   }
+   .hamburger{
+    display: block ;
+    cursor: pointer;
+   }
+    .line1, .line2, .line3{
+    background-color: white;
+    width: 35px;
+    height: 2px;
+    margin-top: 6px;
+    transition: all 0.4s ease; // diminui a velocidade apos o click
+    }
+    .horajs{
+    top: 380px !important;
+    right: 31% !important;
+    }
+    .nav-active{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100% !important;
+    height: 100vh;
+    position: absolute;
+    top: -52px;
+    left: 0%;
+    background-image: linear-gradient(220deg, rgba(247, 39, 74, 1),rgba(22, 26, 30, 1));
+    z-index: -1; // Como tenho a div burguer no meu codigo, precisar negativar o z-index do nac active pq ele esta um nivel acima
+}
+    
+
+   
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 428px) /*Sempre eh do maior para o menor para nao dar ERRO*/  {
+    .linkedinblack{
+        margin-left: 7px;
+       }
+       #rede{
+        h2{
+            font-size: 25px !important;
+        }
+       }
+       .my-creations{
+        display: block !important ;
+       }
+       .gitblack{
+        margin: 0px !important;
+       }
+       .menu{
+        left: 0% !important;
+        top: 83px !important;
+        justify-content: space-around !important;    
+    }
+        .contact {
+            
+        height: 12vh !important;
+        padding: 23px !important;
+            
+        h3 , h4{
+        margin: 0px !important;
+        font-size: 19px !important;
+        }
+    }
+        .img-creation{
+        width: 239px !important;
+        height: 149px !important;
+        }
+        .sobre{
+            margin: 0% !important;
+            p{
+            width: 100% !important;
+            padding: 12px;
+            }
+        }
+        .mob{
+            width: 25%;
+    
+        }
+       .nav-links{
+        display: none !important;
+       }
+       .hamburger{
+        display: block ;
+        cursor: pointer;
+       }
+        .line1, .line2, .line3{
+        background-color: white;
+        width: 35px;
+        height: 2px;
+        margin-top: 6px;
+        transition: all 0.4s ease; // diminui a velocidade apos o click
+        }
+        .horajs{
+        top: 460px !important;
+        right: 35% !important;
+        }
+        .nav-active{
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        flex-direction: column;
+        margin: 0px auto;
+        width: 100% !important;
+        height: 100vh;
+        position: absolute;
+        top: -52px;
+        left: 0%;
+        background-image: linear-gradient(220deg, rgba(247, 39, 74, 1),rgba(22, 26, 30, 1));
+        z-index: -1; // Como tenho a div burguer no meu codigo, precisar negativar o z-index do nac active pq ele esta um nivel acima
+}
+    
+
+} 
+
+
+@media screen and (min-width: 377px) and (max-width: 414px) /*Sempre eh do maior para o menor para nao dar ERRO*/  {
+    .linkedinblack{
+        margin-left: 7px;
+       }
+       #rede{
+        h2{
+            font-size: 25px !important;
+        }
+       }
+       .my-creations{
+        display: block !important ;
+       }
+       .gitblack{
+        margin: 0px !important;
+       }
+       .menu{
+        left: 0% !important;
+        top: 83px !important;
+        justify-content: space-around !important;    
+    }
+        .contact {
+            
+        height: 12vh !important;
+        padding: 23px !important;
+            
+        h3 , h4{
+        margin: 0px !important;
+        font-size: 19px !important;
+        }
+    }
+        .img-creation{
+        width: 239px !important;
+        height: 149px !important;
+        }
+        .sobre{
+            margin: 0% !important;
+            p{
+            width: 100% !important;
+            padding: 12px;
+            }
+        }
+        .mob{
+            width: 25%;
+    
+        }
+       .nav-links{
+        display: none !important;
+       }
+       .hamburger{
+        display: block ;
+        cursor: pointer;
+       }
+        .line1, .line2, .line3{
+        background-color: white;
+        width: 35px;
+        height: 2px;
+        margin-top: 6px;
+        transition: all 0.4s ease; // diminui a velocidade apos o click
+        }
+        .horajs{
+        top: 426px !important;
+        right: 35% !important;
+        }
+        .nav-active{
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        flex-direction: column;
+        margin: 0px auto;
+        width: 100% !important;
+        height: 100vh;
+        position: absolute;
+        top: -52px;
+        left: 0%;
+        background-image: linear-gradient(220deg, rgba(247, 39, 74, 1),rgba(22, 26, 30, 1));
+        z-index: -1; // Como tenho a div burguer no meu codigo, precisar negativar o z-index do nac active pq ele esta um nivel acima
+}
+    
+
+} 
+
+
+
+@media screen and (min-width: 371px) and (max-width: 375px) /*Sempre eh do maior para o menor para nao dar ERRO*/  {
+  
+   .linkedinblack{
+    margin-left: 7px;
+   }
+   #rede{
+    h2{
+        font-size: 25px !important;
+    }
+   }
+   .my-creations{
+    display: block !important ;
+   }
+   .gitblack{
+    margin: 0px !important;
+   }
+   .menu{
+    left: 0% !important;
+    top: 51px !important;
+    justify-content: space-around !important;    
+}
+    .contact {
+        
+    height: 27vh !important;
+    padding: 20px !important;
+        
+    h3 , h4{
+    margin: 0px !important;
+    font-size: 19px !important;
+    }
+}
+    .img-creation{
+    width: 239px !important;
+    height: 149px !important;
+    }
+    .sobre{
+        margin: 0% !important;
+        p{
+        width: 100% !important;
+        padding: 12px;
+        }
+    }
+    .mob{
+        width: 25%;
+
+    }
+   .nav-links{
+    display: none !important;
+   }
+   .hamburger{
+    display: block ;
+    cursor: pointer;
+   }
+    .line1, .line2, .line3{
+    background-color: white;
+    width: 35px;
+    height: 2px;
+    margin-top: 6px;
+    transition: all 0.4s ease; // diminui a velocidade apos o click
+    }
+    .horajs{
+    top: 379px !important;
+    right: 31% !important;
+    }
+    .nav-active{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100% !important;
+    height: 100vh;
+    position: absolute;
+    top: -52px;
+    left: 0%;
+    background-image: linear-gradient(220deg, rgba(247, 39, 74, 1),rgba(22, 26, 30, 1));
+    z-index: -1; // Como tenho a div burguer no meu codigo, precisar negativar o z-index do nac active pq ele esta um nivel acima
+}
+    
+
+   
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 355px) /*Sempre eh do maior para o menor para nao dar ERRO*/  {
+  
+   .linkedinblack{
+    margin-left: 7px;
+   }
+   #rede{
+    h2{
+        font-size: 25px !important;
+    }
+   }
+   .my-creations{
+    display: block !important ;
+   }
+   .gitblack{
+    margin: 0px !important;
+   }
+   .menu{
+    left: 0% !important;
+    top: 51px !important;
+    justify-content: space-around !important;    
+}
+    .contact {
+        
+    height: 27vh !important;
+    padding: 20px !important;
+        
+    h3 , h4{
+    margin: 0px !important;
+    font-size: 19px !important;
+    }
+}
+    .img-creation{
+    width: 239px !important;
+    height: 149px !important;
+    }
+    .sobre{
+        margin: 0% !important;
+        p{
+        width: 100% !important;
+        padding: 12px;
+        }
+    }
+    .mob{
+        width: 25%;
+
+    }
+   .nav-links{
+    display: none !important;
+   }
+   .hamburger{
+    display: block ;
+    cursor: pointer;
+   }
+    .line1, .line2, .line3{
+    background-color: white;
+    width: 35px;
+    height: 2px;
+    margin-top: 6px;
+    transition: all 0.4s ease; // diminui a velocidade apos o click
+    }
+    .horajs{
+    top: 253px !important;
+    right: 31% !important;
+    }
+    .nav-active{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100% !important;
+    height: 100vh;
+    position: absolute;
+    top: -52px;
+    left: 0%;
+    background-image: linear-gradient(220deg, rgba(247, 39, 74, 1),rgba(22, 26, 30, 1));
+    z-index: -1; // Como tenho a div burguer no meu codigo, precisar negativar o z-index do nac active pq ele esta um nivel acima
+}
+    
+
+   
+}
+
+
+
+
+
+    
+
+
+
+

@@ -1,0 +1,29 @@
+.my-creations{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+}
+.creation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.img-creation{
+    width: 380px;
+    height: 216px;
+    border-radius: 0.75rem;
+    
+    box-shadow: 5px 7px 10px grey;
+}
+.button-creation{
+    margin: 30px auto;
+    border: none;
+    padding: 10px;
+    border-radius: 0.75rem;
+    background-image: linear-gradient(to left, $primaryColor, $secondColor);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+/*font-family: 'Inter', sans-serif;
+font-family: 'Julius Sans One', sans-serif;*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import './mediaqueries';
+@import './header';
+@import './variables';
+@import './myskills';
+@import './contact';
+@import './creation';
+@import './about';
+@import './footer';
